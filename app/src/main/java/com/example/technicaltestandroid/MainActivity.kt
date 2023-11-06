@@ -35,7 +35,7 @@ class MainActivity : ComponentActivity() {
                     SurveyListScreen()
                 }
                 AuthenticationResult.FAILURE -> {
-                    FailureScreen(errorMessage = "User or Password incorrect")
+                    FailureScreen(errorMessage = "Username or Password incorrect")
                 }
             }
         }
